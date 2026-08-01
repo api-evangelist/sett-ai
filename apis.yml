@@ -1,8 +1,24 @@
 aid: sett-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sett-ai.png
 name: Sett AI
-description: 'Sett AI is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sett AI is a creative performance AI platform for mobile game user acquisition (UA), offering
+  "agentic AI" that helps game studios and performance-marketing teams research, generate, analyze, and
+  deploy video and playable ad creatives at scale to combat creative fatigue. Sett agents connect to ad
+  networks (Meta, Google, AppLovin, Unity, Mintegral) and MMP data to ideate concepts, generate playables
+  and videos, and analyze creative performance. Backed by Bessemer Venture Partners; the company raised a
+  Series B bringing total funding to $57M. Sett operates a marketing and product website but publishes no
+  public developer API, SDK, or documentation surface as of this profiling.'
 url: https://raw.githubusercontent.com/api-evangelist/sett-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Ml
+- Artificial Intelligence
+- Mobile Games
+- User Acquisition
+- Advertising
+- Creative
+- Agentic AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.sett.ai/
+- type: Blog
+  url: https://www.sett.ai/content/
+- type: TermsOfService
+  url: https://www.sett.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.sett.ai/privacy-policy/
+- type: LLMsTxt
+  url: llms/sett-ai-llms.txt
+- type: DomainSecurity
+  url: security/sett-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
